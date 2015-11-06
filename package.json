@@ -1,0 +1,29 @@
+{
+  "name": "spokes-api",
+  "version": "0.0.1",
+  "description": "An API for spokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luhmann/spokes-api.git"
+  },
+  "author": "Jan Florian Dietrich <jfd@daenen4.de> (http://www.daenen4.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luhmann/spokes-api/issues"
+  },
+  "homepage": "https://github.com/luhmann/spokes-api",
+  "dependencies": {
+    "dogwater": "^1.0.1",
+    "hapi": "^11.1.0",
+    "sails-mongo": "^0.11.4",
+    "waterline": "^0.10.26"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.4"
+  }
+}
