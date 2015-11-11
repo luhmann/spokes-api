@@ -1,9 +1,16 @@
-{
+const Dogwater = require('dogwater');
+const Mongo = require('sails-mongo');
+const DbModels = require('../models/models.js');
+
+module.exports = {
   register: Dogwater,
   options: {
     adapters: {
-      adapter: 'sails-mongo',
-      database: 'spokes'
-    }
+      mongo: Mongo
+    },
+    connections: {
+      mongo: { adapter: 'mongo' }
+    },
+    models: DbModels
   }
-}
+};
